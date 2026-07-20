@@ -415,13 +415,13 @@
 
         <div class="bio-section">
             <div class="bio-text">
-                <p>Hi! My name is Egor and I am a PhD student at ISTA, Austria, working under the supervision of <a href="https://cvml.ista.ac.at/" target="_blank">Christoph Lampert</a>. I am also a member of the ELLIS PhD Program co-supervised by <a href="https://www.floriantramer.com/" target="_blank">Florian Tramèr</a> from ETH Zürich. </p>
+                <p>Hi! My name is Egor and I am a PhD student at ISTA, Austria, working under the supervision of <a href="https://cvml.ista.ac.at/" target="_blank">Christoph Lampert</a>. I am also a member of the ELLIS PhD Program co-supervised by <a href="https://www.floriantramer.com/" target="_blank">Florian Tramèr</a> from ETH Zürich. Since June 2026, I have been a research intern at Microsoft Research Cambridge, working with the <a href="https://www.microsoft.com/en-us/research/project/roma/people/" target="_blank">Project Roma</a> team on secure-by-design web agents, and I also advise several master's students on AI security in robotics through the ETH Robotics Club. </p>
                 
-                <p>I am broadly interested in AI Safety and Security, with a particular focus on improving LLM Security through architectures. In my previous work I have  <a href="https://openreview.net/forum?id=8EtSBX41mt" target="_blank">formalized the problem of instruction-data separation</a> (i.e., what it means for the model to separate executable instructions from non-executable data) and <a href="https://arxiv.org/abs/2503.10566" target="_blank">proposed a method to increase such separation through architectural changes</a>. </p>
+                <p>I am broadly interested in AI Safety and Security, with a particular focus on improving LLM Security through architectures and building provable safeguards for AI agents. In my previous work I have <a href="https://openreview.net/forum?id=8EtSBX41mt" target="_blank">formalized the problem of instruction-data separation</a> (i.e., what it means for the model to separate executable instructions from non-executable data) and <a href="https://arxiv.org/abs/2503.10566" target="_blank">proposed a method to increase such separation through architectural changes</a>. More recently, I have been working on <a href="https://arxiv.org/abs/2607.05277" target="_blank">provable security guarantees for web agents that need to handle untrusted content</a>. </p>
                 
-                <p>Before coming to ISTA, I got my B.S.(Hons) in Applied Math and CS from the Yandex Department of Data Analysis at the Moscow Institute of Physics and Technology, where I also taught python and stats. You can find my full CV <a href="assets/cv.pdf" target="_blank">here</a>.</p>
-                
-                <p>I also enjoy doing creative and community-driven gigs. I was the main organizer for the <a href="https://llmsec-eurips.github.io/">Foundations of LLM Security Workshop @EurIPS'25</a> and the <a href="https://llmsafety-unconference.github.io/">LLM Safety and Security ELLIS UnConference'25</a>. I co-created one of the AI art booths for ISTA Summer Campus, and in my spare time, I write poetry and tinker with Arduino.</p>
+                <p>Before coming to ISTA, I got my B.S.(Hons) in Applied Math and CS from the Yandex Department of Data Analysis at the Moscow Institute of Physics and Technology, where I also taught Python and stats. You can find my full CV <a href="assets/cv.pdf" target="_blank">here</a>.</p>
+
+                <p>I also enjoy doing creative and community-driven gigs. I was the lead organizer for the <a href="https://llmsec-eurips.github.io/">Foundations of LLM Security Workshop @EurIPS'25</a> and the <a href="https://llmsafety-unconference.github.io/">LLM Safety and Security ELLIS UnConference'25</a>, and I am now co-organizing the 2nd iteration of the <a href="https://flmsec.github.io/">Foundations of LLM Security Workshop @NeurIPS'26</a>. I co-created one of the AI art booths for ISTA Summer Campus, and in my spare time, I write poetry and tinker with Arduino.</p>
 
                 <p>I am always open to new connections, professional and otherwise, feel free to send me an email at [first_name].[last_name]@ist.ac.at. Let's chat!</p>
             </div>
@@ -433,20 +433,30 @@
         <section class="section">
             <h2 class="section-title">Publications</h2>
             <div class="publication">
-                <h3>ASIDE: Architectural Separation of Instructions and Data in Language Models</h3> <!--<span class="pub-label">Oral</span></h3> -->
-                <div class="authors"><span class="highlight-name">Egor Zverev</span>, Evgenii Kortukov, Alexander Panfilov, Alexandra Volkova, Soroush Tabesh, Sebastian Lapuschkin, Wojciech Samek, Christoph H. Lampert</div>
-                <div class="venue">ICLR 2026</div>
-                <div class="venue">ICLR 2025 Workshop on Building Trust in Language Models and Applications (Oral) </div>
+                <h3>Untrusted Content Masking for Web Agents with Security Guarantees</h3>
+                <div class="authors">Kristina Nikolić*, <span class="highlight-name">Egor Zverev</span>*, Javier Rando, Matthew Jagielski, Edoardo Debenedetti, Florian Tramèr (*equal contribution)</div>
+                <div class="venue">ICML Workshop on Agents in the Wild (AIWILD), 2026 (Spotlight)</div>
                 <div class="links">
-                    <a href="https://arxiv.org/abs/2503.10566">Paper</a>
-                    <a href="https://github.com/egozverev/aside">Code</a>
+                    <a href="https://arxiv.org/abs/2607.05277">Paper</a>
+                    <a href="https://github.com/ethz-spylab/untrusted-content-masking">Code</a>
                 </div>
             </div>
             
             <div class="publications-list">
                 <div class="publication">
+                    <h3>ASIDE: Architectural Separation of Instructions and Data in Language Models</h3> <!--<span class="pub-label">Oral</span></h3> -->
+                    <div class="authors"><span class="highlight-name">Egor Zverev</span>, Evgenii Kortukov, Alexander Panfilov, Alexandra Volkova, Soroush Tabesh, Sebastian Lapuschkin, Wojciech Samek, Christoph H. Lampert</div>
+                    <div class="venue">ICLR 2026</div>
+                    <div class="venue">ICLR 2025 Workshop on Building Trust in Language Models and Applications (Oral) </div>
+                    <div class="links">
+                        <a href="https://arxiv.org/abs/2503.10566">Paper</a>
+                        <a href="https://github.com/egozverev/aside">Code</a>
+                    </div>
+                </div>
+
+                <div class="publication">
                     <h3>Can LLMs Separate Instructions From Data? And What Do We Even Mean By That?</h3>
-                    <div class="authors"><span class="highlight-name">Egor Zverev</span>,  Sahar Abdelnabi, Soroush Tabesh, Mario Fritz, Christoph H. Lampert</div>
+                    <div class="authors"><span class="highlight-name">Egor Zverev</span>, Sahar Abdelnabi, Soroush Tabesh, Mario Fritz, Christoph H. Lampert</div>
                     <div class="venue">ICLR 2025</div>
                     <div class="links">
                         <a href="https://arxiv.org/abs/2403.06833">Paper</a>
@@ -460,7 +470,7 @@
                 <div class="publication">
                     <h3>LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge</h3>
                     <div class="authors">Sahar Abdelnabi, Aideen Fay, Ahmed Salem, <span class="highlight-name">Egor Zverev</span>, Kai-Chieh Liao, ... Andrew Paverd, Giovanni Cherubin</div>
-                    <div class="venue">EurIPS 2025 Salon des Refusés (papers with high scores rejected from NeurIPS'25 due to capacity constraints)</div>
+                    <div class="venue">EurIPS 2025 Salon des Refusés (Accepted by AC/SAC at NeurIPS'25, rejected by PC due to venue capacity constraints)</div>
                     <div class="links">
                         <a href="https://arxiv.org/abs/2506.09956">Paper</a>
                     </div>
@@ -475,6 +485,30 @@
             
             <div class="news-list">
                 <div class="news-item">
+                    <div class="news-date">July 2026</div>
+                    <div> Gave an invited talk at Imperial College London on our new paper, "Untrusted Content Masking for Web Agents with Security Guarantees". </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">July 2026</div>
+                    <div> Excited to share that our <a href="https://flmsec.github.io/">Foundations of LLM Security Workshop</a> got accepted to NeurIPS'26 in Paris! I am co-leading the organization. So excited about our speaker lineup: Niloofar Mireshghallah, Christian Schroeder de Witt, Reza Shokri, Somesh Jha and David Evans. If you work on LLM security, consider submitting a paper! </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">June 2026</div>
+                    <div> Our new paper "Untrusted Content Masking for Web Agents with Security Guarantees" (joint work with Kristina Nikolić, equal contribution) got a Spotlight at the ICML Workshop on Agents in the Wild! Check it out <a href="https://arxiv.org/abs/2607.05277">here</a>. </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">June 2026</div>
+                    <div> I started a research internship at Microsoft Research Cambridge, working with Santiago Zanella-Béguelin on secure-by-design web agents. </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">March 2026</div>
+                    <div> I went on a "Science Tour", giving talks on Untrusted Content Masking and ASIDE at ELLIS Institute Tübingen, Saarland University, University of Luxembourg, University of Liechtenstein, and CISPA, all within 5 days. </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">March 2026</div>
+                    <div> Became a Research Advisor at the ETH Robotics Club, supervising Andrei Baroian, Noé Macé, and Gustave Charles Saigne on a project exploring AI security vulnerabilities in state-of-the-art robotics models. </div>
+                </div>
+                <div class="news-item">
                     <div class="news-date">February 2026</div>
                     <div> I am attending IASEAI'26 in Paris. I will give a talk about ASIDE and be a panelist in the follow-up session. Exciting! </div>
                 </div>
@@ -484,7 +518,7 @@
                 </div>
                 <div class="news-item">
                     <div class="news-date">October 2025</div>
-                    <div> I am co-organizing the <a href="https://llmsec-eurips.github.io/">Foundations of LLM Security Workshop @EurIPS'25</a>! Call for talks open until Oct 22. Proud of the speakers we have at the event:  Ilia Shumailov, Santiago Zanella-Béguelin, Kathrin Grosse and Verena Rieser. </div>
+                    <div> I am co-organizing the <a href="https://llmsec-eurips.github.io/">Foundations of LLM Security Workshop @EurIPS'25</a>! Call for talks open until Oct 22. Proud of the speakers we have at the event: Ilia Shumailov, Santiago Zanella-Béguelin, Kathrin Grosse and Verena Rieser. </div>
                 </div>
                 <div class="news-item">
                     <div class="news-date">October 2025</div>
@@ -498,7 +532,7 @@
 
                 <div class="news-item">
                     <div class="news-date">September 2025</div>
-                    <div> Gave at talk on instruction-data separation at IBM T.J. Watson Research Lab. Thank you Rosario Uceda-Sosa for hosting me!</div>
+                    <div> Gave a talk on instruction-data separation at IBM T.J. Watson Research Lab. Thank you Rosario Uceda-Sosa for hosting me!</div>
                 </div>
 
                 <div class="news-item">
@@ -539,8 +573,8 @@
         </section>
 
         <footer>
-            <p>&copy; 2025 Egor Zverev. All rights reserved.</p>
-            <p>Last updated: June 18, 2025</p>
+            <p>&copy; 2026 Egor Zverev. All rights reserved.</p>
+            <p>Last updated: July 20, 2026</p>
         </footer>
     </div>
 </body>
